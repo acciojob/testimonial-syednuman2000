@@ -8,9 +8,10 @@ main{
 div{
 	padding:10px 20px;
 	background-color:#5f5f5f;
+	border:2px red;
 	border-radius:20px;
 }
-div i{
-	display:flex;
-	justify-content:end;
+p + p{
+	font-style:italic;
+	text-align:right;
 }
